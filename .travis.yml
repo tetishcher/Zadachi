@@ -1,0 +1,23 @@
+anguage: node_js
+
+node_js:
+   - "8.11.3"
+
+branches:
+   only:
+      - master # will only build for master branch commits
+
+before_script:
+   - npm install -g node_js
+   - npm install -g npm
+   - npm install -g eslint
+
+script:
+  - npm run lint
+  - npm test
+
+after_success:
+npm test succeeded
+
+after_failure:
+npm test failed
