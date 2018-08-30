@@ -1,4 +1,4 @@
-anguage: node_js
+language: node_js
 
 node_js:
    - "8.11.3"
@@ -8,9 +8,7 @@ branches:
       - master # will only build for master branch commits
 
 before_script:
-   - npm install -g node_js
-   - npm install -g npm
-   - npm install -g eslint
+   - npm install
 
 script:
   - npm run lint
