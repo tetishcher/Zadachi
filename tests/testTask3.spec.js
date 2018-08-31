@@ -1,8 +1,7 @@
-const getNumbers = require('./task1');
+const getNumbers = require('../task3');
 describe("A suite is just a function", function () {
 
     it("and so is a spec", function () {
-
-        expect(getNumbers([3, 6, 15, 30, 9])).toBe(3);
+        expect(getNumbers(5)).toEqual([3, 4, 5]);
     });
-});
+}); 
