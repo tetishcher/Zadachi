@@ -1,3 +1,0 @@
-testTask1.spec.js
-testTask2.spec.js
-testTask3.spec.js
