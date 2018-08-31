@@ -1,4 +1,4 @@
-const getNumbers = require('./task2');
+const getNumbers = require('task2');
 describe("A suite is just a function", function () {
 
     it("and so is a spec", function () {
